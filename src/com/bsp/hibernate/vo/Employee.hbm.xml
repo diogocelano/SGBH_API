@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 30/12/2015 20:35:09 by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="com.bsp.hibernate.vo.Employee" table="SRA010">
+        <id name="matricula" type="java.lang.String">
+            <column name="RA_MAT" />
+            <generator class="assigned" />
+        </id>
+        <property name="nome" column="RA_NOME"/>
+        <property name="filial" column="RA_FILIAL"/>
+    </class>
+</hibernate-mapping>
